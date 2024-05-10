@@ -1,15 +1,23 @@
+Other notes:
+    Self closing tags cant wrap
+
 Command : Define : Example
 code . : Open directory/repository in vscode : (in repository) code .
+code FILENAME : opens file in vscode : code index.html
 cd : Navigation, enter folder or .. to go up : cd repos or cd ..
 ls : List stuff in directory : ls repos
 mkdir : make a folder/directory : mkdir repos
 touch : create file : touch hello_world.txt 
+
+google-chrome : open chrome or something in it : google-chrome index.html 
+! + return (in html file) : default html file 
+
 git clone  git@github.com:USER-NAME/RESPOSITORY-NAME.git : clone repository
 git status : shows status of branch and staging area
 git add : add to staging area : git add hello_world.txt 
     . : add all files in current directory to staging area
-git commit : commit something to git 
+git commit : commit something to git (remember to save files before commit)
     -m "message" : add message to commit
 git log : view log
-git push : push changes to github
+git push : push changes to github (remember to save files before pushing)
     git push origin main : being more specific to push to main branch
